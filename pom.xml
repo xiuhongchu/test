@@ -183,5 +183,16 @@
             </plugin>
         </plugins>
     </build>
-
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>corp nexus-releases</name>
+            <url>http://172.16.6.10:8081/repository/mymaven2_hosted/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshot</id>
+            <name>corp nexus-snapshot</name>
+            <url>http://172.16.6.10:8081/repository/mymaven2_Snhosted/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
